@@ -1,4 +1,4 @@
-package jp.tsur.booksearchscan2
+package jp.tsur.booksearchscan2.ui
 
 import android.Manifest
 import android.content.Intent
@@ -15,8 +15,11 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.common.util.concurrent.ListenableFuture
+import jp.tsur.booksearchscan2.R
 import jp.tsur.booksearchscan2.camera.ImageAnalyzer
 import jp.tsur.booksearchscan2.databinding.FragmentScanBinding
+import jp.tsur.booksearchscan2.onRequestPermissionsResult
+import jp.tsur.booksearchscan2.setUpCameraWithPermissionCheck
 import permissions.dispatcher.NeedsPermission
 import permissions.dispatcher.OnNeverAskAgain
 import permissions.dispatcher.OnPermissionDenied
@@ -28,7 +31,7 @@ import java.util.concurrent.Executors
 
 @RuntimePermissions
 class ScanFragment : Fragment(R.layout.fragment_scan) {
-    ß
+
     private lateinit var binding: FragmentScanBinding
 
     private lateinit var cameraProviderFuture: ListenableFuture<ProcessCameraProvider>

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/scan_fragment"
-        android:name="jp.tsur.booksearchscan2.ScanFragment"
+        android:name="jp.tsur.booksearchscan2.ui.ScanFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_scan" />
