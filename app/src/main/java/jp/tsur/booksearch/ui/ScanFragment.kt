@@ -1,4 +1,4 @@
-package jp.tsur.booksearchscan2.ui
+package jp.tsur.booksearch.ui
 
 import android.Manifest
 import android.content.Intent
@@ -15,11 +15,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.LifecycleOwner
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.common.util.concurrent.ListenableFuture
-import jp.tsur.booksearchscan2.R
-import jp.tsur.booksearchscan2.camera.ImageAnalyzer
-import jp.tsur.booksearchscan2.databinding.FragmentScanBinding
-import jp.tsur.booksearchscan2.onRequestPermissionsResult
-import jp.tsur.booksearchscan2.setUpCameraWithPermissionCheck
+import jp.tsur.booksearch.R
+import jp.tsur.booksearch.camera.ImageAnalyzer
+import jp.tsur.booksearch.databinding.FragmentScanBinding
 import permissions.dispatcher.NeedsPermission
 import permissions.dispatcher.OnNeverAskAgain
 import permissions.dispatcher.OnPermissionDenied

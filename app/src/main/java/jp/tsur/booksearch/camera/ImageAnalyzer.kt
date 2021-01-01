@@ -1,4 +1,4 @@
-package jp.tsur.booksearchscan2.camera
+package jp.tsur.booksearch.camera
 
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy

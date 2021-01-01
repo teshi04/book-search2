@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="jp.tsur.booksearch.MainActivity">
 
     <fragment
         android:id="@+id/scan_fragment"
-        android:name="jp.tsur.booksearchscan2.ui.ScanFragment"
+        android:name="jp.tsur.booksearch.ui.ScanFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/fragment_scan" />

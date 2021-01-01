@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BookSearchScan2</string>
+    <string name="app_name">booksearch</string>
 
     <string name="barcode_scanning_permission_dialog_rationale_message">バーコードの読み取りには写真撮影を許可する必要があります</string>
     <string name="barcode_scanning_permission_dialog_rationale_positive">OK</string>

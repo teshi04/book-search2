@@ -1,4 +1,4 @@
-package jp.tsur.booksearchscan2
+package jp.tsur.booksearch
 
 import org.junit.Test
 
